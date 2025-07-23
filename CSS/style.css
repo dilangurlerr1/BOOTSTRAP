@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+header {
+    background-color:#181817;
+    color: #fff;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #612706;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+
+body {
+ background-color: #e9ecef;
+  font-family: cursive;
+  font-size: 20px;
+  line-height: 1.5;
+  color:#493628;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #181817;
+    padding: 30px 20px;
+    
+}
+.navbar-brand {
+  margin-right: 30px;
+}
+
+.logo {
+    color:#680a0a;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+.menu a {
+    text-decoration: none;
+    list-style: none;
+    color:#fcfbfb;
+    margin: 0;
+    padding: 0;
+}
+.menu a:hover {
+    color: #ffd700;
+}
+article {
+    background-color: #FCF8E8;
+    padding: 40px 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+article h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #9D5C0D;
+    text-align: center;
+}
+article p {
+    font-size: 18px;
+    text-align: center;
+    color: #2D2424;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.col-md-4 {
+  flex: 0 0 calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  background-color: white;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.card-img-top {
+  width: 100%;
+  height:350;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.card-body {
+  padding: 15px;
+  flex-grow: 1;
+}
+.card-footer {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+.btn-dark {
+  background-color: #343a40;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-dark:hover {
+  background-color: #23272b;
+}
+.product-item h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #333;
+    padding: 15px 0;
+}
+/* Instrument list styling */
+.Enstrüman-başlığı {
+    font-size: 30px;
+    color: #9D5C0D;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.Enstrümanlar {
+    list-style: none;
+    text-align: center;
+    padding: 3;
+    margin: 20px auto;
+    display: grid;
+    flex-direction: column-reverse;
+    gap: 15px;
+    font-size: 22px;
+    color: #493628;
+}
+.Enstrümanlar li {
+    padding: 8px 0;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+
